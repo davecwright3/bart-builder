@@ -7,4 +7,4 @@ Follow the instructions [here](https://github.com/exosports/BART#install-and-com
 docker run -it -v $topdir:$topdir -e topdir=$topdir \
 -u $(id -u ${USER}):$(id -g ${USER}) --rm davecwright3/bart-builder:latest 
 ```
-Now, just follow the rest of the instructions at the aforementioned link while inside the docker container. When you are done, just `exit`. The docker image should be removed from your system.
+Now, just follow the rest of the instructions at the aforementioned link while inside the docker container. When you are done, just `exit`.
